@@ -1,0 +1,76 @@
+.calendar-container {
+  font-family: Tahoma;
+  background-color: #58a4fa;
+  color: #ffffff;
+  padding: 5px 2px 5px 5px;
+  width: 231px;
+  margin: 0 auto;
+}
+
+.top-bar {
+  font-weight: bold;
+  margin: 10px 6px 10px 3px;
+  text-align: center;
+}
+
+.top-bar span:first-child {
+  cursor: pointer;
+  float: left;
+}
+
+.top-bar span:last-child {
+  cursor: pointer;
+  float: right;
+}
+
+.calendar-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.calendar-container li {
+  float: left;
+  height: 25px;
+  margin: 0 3px 3px 0;
+  padding-top: 4px;
+  text-align: center;
+  width: 30px;
+}
+
+.date-holder {
+  min-height: 224px;
+}
+
+.date-holder li {
+  cursor: pointer;
+}
+
+.date-holder li.selected {
+  background-color: #fff;
+  border-radius: 50%;
+  color: #58a4fa;
+}
+
+.other-months {
+  color: #89c9f3;
+}
+
+.bottom-line {
+  clear: both;
+}
+
+.bottom-line button {
+  background-color: #ffffff;
+  border: medium none;
+  color: #58a4fa;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 9px 5px 0 3px;
+  padding: 2px 4px;
+}
+
+a[title^="Hosted"] {
+  display: none;
+}
